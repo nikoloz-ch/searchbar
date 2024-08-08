@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* body {
+  background-color: rgb(15 23 42);
+} */
+
+.inp input:focus {
+  width: 1000px;
+}
+.inp input {
+  transition: all ease-in-out 500ms;
+}
+.inp input:dark {
+  background-color: white;
+}
+.hex {
+  background-image: url(./public/hexagon.png);
+  background-repeat: repeat;
+  display: inline;
+  z-index: -5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
