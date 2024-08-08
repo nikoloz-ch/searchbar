@@ -124,7 +124,7 @@ function Main() {
             return (
               <div
                 key={word}
-                className=" p-[20px] text-white font-mono text-lg backdrop-blur-3xl shadow-xl rounded-3xl mt-[50px]"
+                className=" p-[20px] dark:text-white text-black font-mono text-lg backdrop-blur-3xl shadow-xl rounded-3xl mt-[50px]"
               >
                 {word}
               </div>
